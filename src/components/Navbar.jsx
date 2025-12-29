@@ -5,8 +5,12 @@ export default function Navbar() {
   const { pathname } = useLocation();
 
   return (
-      <>
-      <div style={{ gridColumn: "1 / 4" }}>
+    <>
+      <div style={{
+        gridColumn: "1 / 4",
+        display: "flex",
+        justifyContent: "flex-start"
+      }}>
         <Link to="/" style={{ textDecoration: "none", color: "inherit", fontSize: "10px" }}>
           <ScrambleText text="VEDANSH DERASHRI" />
         </Link>
@@ -21,19 +25,19 @@ export default function Navbar() {
         }}
       >
         <Link to="/" style={{ color: pathname === "/" ? "#9eff00" : "inherit", fontSize: "10px" }}>
-         <ScrambleText text="[ WORK ]"/>
+          <ScrambleText text="[ WORK ]" />
         </Link>
 
         <Link
           to="/info"
           style={{ color: pathname === "/info" ? "#9eff00" : "inherit", fontSize: "10px" }}
         >
-          <ScrambleText text="[ INFO ]"/>
+          <ScrambleText text="[ INFO ]" />
         </Link>
 
         <Link to="/archive"
-        style={{ color: pathname === "/archive" ? "#9eff00" : "inherit", fontSize: "10px" }}>
-          <ScrambleText text="[ ARCHIVE ]"/>
+          style={{ color: pathname === "/archive" ? "#9eff00" : "inherit", fontSize: "10px" }}>
+          <ScrambleText text="[ ARCHIVE ]" />
         </Link>
       </div>
     </>
