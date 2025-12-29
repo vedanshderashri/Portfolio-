@@ -51,7 +51,7 @@ body::before {
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  column-gap: 32px;
+  
   position: relative;
   z-index: 1;
 }
