@@ -17,12 +17,7 @@ export default function Navbar() {
       </div>
 
       <div
-        style={{
-          gridColumn: "7 / 13",
-          display: "flex",
-          gap: 48,
-          justifyContent: "flex-end",
-        }}
+        className="Navbar"
       >
         <Link to="/" style={{ color: pathname === "/" ? "#9eff00" : "inherit", fontSize: "10px" }}>
           <ScrambleText text="[ WORK ]" />
