@@ -335,7 +335,7 @@ body::before {
 }
 
 .archive-title {
-  font-size: clamp(90px, 12vw, 180px);
+  font-size: clamp(60px, 12vw, 180px);
   font-weight: 500;
   letter-spacing: -0.04em;
 }
