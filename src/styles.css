@@ -51,7 +51,7 @@ body::before {
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  
+  column-gap: 32px;
   position: relative;
   z-index: 1;
 }
@@ -445,3 +445,31 @@ body::before {
   outline: 0;
   outline-offset: 6px;
 }
+
+.Navbar{
+  grid-column: 7 / 13;
+  display: flex;
+  gap: 48px;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 700px) {
+  .Navbar{
+    width: 100%;
+    background: #0b0b0b84;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    grid-column: 1;
+    justify-content: center;
+    font-size: 22px;
+    padding: 20px;
+    margin: 0;
+  }
+  .Navbar a{
+    font-size: 16px !important;
+  }
+}
+
