@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const text = "VEDANSH DERASHRI";
+const text = "INIT...";
 
 export default function WaveLoader({ onComplete }) {
   return (
