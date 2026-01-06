@@ -376,6 +376,10 @@ body::before {
   grid-column: 4 / 8;
   margin-top: 160px;
 }
+.archive-card:nth-child(6) {
+  grid-column: 9 / 13;
+  margin-top: 160px;
+}
 
 .archive-card img {
   width: 100%;
