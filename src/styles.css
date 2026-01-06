@@ -356,30 +356,15 @@ body::before {
   gap: 32px;
 }
 
-/* CARDS – staggered editorial placement */
-.archive-card:nth-child(1) {
+.archive-card:nth-child(odd) {
   grid-column: 2 / 6;
 }
-.archive-card:nth-child(2) {
+
+.archive-card:nth-child(even) {
   grid-column: 7 / 11;
   margin-top: 120px;
 }
-.archive-card:nth-child(3) {
-  grid-column: 3 / 7;
-  margin-top: 80px;
-}
-.archive-card:nth-child(4) {
-  grid-column: 8 / 12;
-  margin-top: 160px;
-}
-.archive-card:nth-child(5) {
-  grid-column: 2 / 6 ;
-  margin-top: 160px;
-}
-.archive-card:nth-child(6) {
-  grid-column: 7 / 13;
-  margin-top: 160px;
-}
+
 
 .archive-card img {
   width: 100%;
