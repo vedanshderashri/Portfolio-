@@ -4,13 +4,15 @@ import w2 from "../assets/work1.png";
 import w3 from "../assets/work2.png";
 import w4 from "../assets/work3.png";
 import w5 from "../assets/work4.png";
+import w6 from "../assets/work5.png";
 
 const works = [
   { img: w1, href: "https://prourls.link/7JNYjP" },
   { img: w2, href: "https://prourls.link/lyXuT3" },
   { img: w3, href: "https://prourls.link/EaldXd" },
   { img: w4, href: "https://prourls.link/nfIzTr" },
-  { img: w5, href: "https://prourls.link/AYamo0" }
+  { img: w5, href: "https://prourls.link/AYamo0" },
+  { img: w6, href: "https://prourls.link/AYamo0" }
 ];
 
 export default function WorkGrid() {
