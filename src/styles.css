@@ -377,7 +377,7 @@ body::before {
   margin-top: 160px;
 }
 .archive-card:nth-child(6) {
-  grid-column: 7 / 11;
+  grid-column: 7 / 13;
   margin-top: 160px;
 }
 
