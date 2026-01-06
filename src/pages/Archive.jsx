@@ -4,8 +4,9 @@ import a2 from "../assets/work1.png";
 import a3 from "../assets/work2.png";
 import a4 from "../assets/work3.png";
 import a5 from "../assets/work4.png";
+import a6 from "../assets/work5.png";
 
-const projects = [a1, a2, a3, a4, a5];
+const projects = [a1, a2, a3, a4, a5, a6];
 
 const itemVariants = {
   hidden: (i) => ({

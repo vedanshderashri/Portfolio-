@@ -12,7 +12,7 @@ const works = [
   { img: w3, href: "https://prourls.link/EaldXd" },
   { img: w4, href: "https://prourls.link/nfIzTr" },
   { img: w5, href: "https://prourls.link/AYamo0" },
-  { img: w6, href: "https://prourls.link/AYamo0" }
+  { img: w6, href: "https://www.figma.com/proto/vY1vrLrnoffku0dCNY9xVE/Vaulta?node-id=1-3&t=dilqu8hnkk0CcRG1-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" }
 ];
 
 export default function WorkGrid() {
