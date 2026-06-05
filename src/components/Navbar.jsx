@@ -34,6 +34,16 @@ export default function Navbar() {
           style={{ color: pathname === "/archive" ? "#9eff00" : "inherit", fontSize: "10px" }}>
           <ScrambleText text="[ ARCHIVE ]" />
         </Link>
+
+        <Link to="https://www.instagram.com/vedanshdesignss/"
+          style={{ color: pathname === "/instagram" ? "#9eff00" : "inherit", fontSize: "10px" }}>
+          <ScrambleText text="[ INSTAGRAM ]" />
+        </Link>
+
+        <Link to="https://github.com/vedanshderashri"
+          style={{ color: pathname === "/github" ? "#9eff00" : "inherit", fontSize: "10px" }}>
+          <ScrambleText text="[ GITHUB ]" />
+        </Link>
       </div>
     </>
   );

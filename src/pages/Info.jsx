@@ -1,5 +1,5 @@
 import ScrambleText from "../components/ScrambleText";
-import profile from "../assets/profile.png";
+import profile from "../assets/profile.webp";
 
 export default function Info() {
   return (
@@ -7,10 +7,10 @@ export default function Info() {
       {/* LEFT */}
       <div className="info-left">
         <h1 data-scramble className="info-title">
-          
-          <ScrambleText text="INFO"/>
-          
-          </h1>
+
+          <ScrambleText text="INFO" />
+
+        </h1>
 
         <div className="info-text">
           <p>
@@ -53,19 +53,19 @@ export default function Info() {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <ScrambleText text="Behance ↗" />
             <div className="info-muted">
               <ScrambleText text="behance.net/vedansh" />
             </div>
-          </div>
+          </div> */}
 
-          <div>
+          {/* <div>
             <ScrambleText text="Contra ↗" />
             <div className="info-muted">
               <ScrambleText text="contra.com/vedansh" />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

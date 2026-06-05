@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Original Images Backup (unoptimized)
+original_images_backup/
