@@ -8,14 +8,14 @@ const images = import.meta.glob("../assets/works/*.{png,jpg,jpeg,webp}", {
 
 // ONLY ADD LINKS HERE
 const projectLinks = {
-  "a1" : "https://www.figma.com/proto/AhGcatWVbGtuI5GkdhHL7w/Landing-Page---Animation?node-id=0-3&t=matHFlb6WhvxWClA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-  "a2": "https://www.figma.com/proto/YPTodrqTVyTQ6MB1hBHWS9/Landing-Page-Animated?node-id=1-3&t=ilz13RaOwVWxAmQP-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-  "interia.png": "https://www.figma.com/proto/Gbycl2NXm4FsYWHSENIs03/Interia?node-id=1-2&t=TP6WY4TAz1KeUz2z-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
-  "work1.png": "https://www.figma.com/proto/da0dVbuQ7Vx2Eh1BE4d9mu/QuickPay?node-id=2-147&p=f&t=RGbz9vmhEMcnC8Df-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=76%3A39",
-  "work2.png": "https://www.figma.com/proto/wLmRGAkb78LjL09PcgElkh/Digital-Solutions?node-id=2-4&p=f&t=kWkEopW0Oh3lBSrn-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A245",
-  "work3.png": "https://www.figma.com/proto/3Oo6S8DcbR4D7kO1GsZMy2/Credit-Card?node-id=1-2&p=f&t=MpcwKH0y9cb7OG1S-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
-  "work4.png": "https://www.figma.com/proto/FlBwKJ4KMdyUGyRVYH0xhk/Crypp?node-id=2001-2&t=0Ifp6Y6ixiq7iQDX-1",
-  "work5": "https://www.figma.com/proto/vY1vrLrnoffku0dCNY9xVE/Vaulta?node-id=1-3&t=dilqu8hnkk0CcRG1-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+  "a1.png" : "https://www.figma.com/proto/AhGcatWVbGtuI5GkdhHL7w/Landing-Page---Animation?node-id=0-3&t=matHFlb6WhvxWClA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+  "a2.png": "https://www.figma.com/proto/YPTodrqTVyTQ6MB1hBHWS9/Landing-Page-Animated?node-id=1-3&t=ilz13RaOwVWxAmQP-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+  "a3.png": "https://www.figma.com/proto/Gbycl2NXm4FsYWHSENIs03/Interia?node-id=1-2&t=TP6WY4TAz1KeUz2z-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
+  "a10.webp": "https://www.figma.com/proto/da0dVbuQ7Vx2Eh1BE4d9mu/QuickPay?node-id=2-147&p=f&t=RGbz9vmhEMcnC8Df-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=76%3A39",
+  "a8.webp": "https://www.figma.com/proto/wLmRGAkb78LjL09PcgElkh/Digital-Solutions?node-id=2-4&p=f&t=kWkEopW0Oh3lBSrn-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A245",
+  "a9.webp": "https://www.figma.com/proto/3Oo6S8DcbR4D7kO1GsZMy2/Credit-Card?node-id=1-2&p=f&t=MpcwKH0y9cb7OG1S-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+  "a7.webp": "https://www.figma.com/proto/FlBwKJ4KMdyUGyRVYH0xhk/Crypp?node-id=2001-2&t=0Ifp6Y6ixiq7iQDX-1",
+  "a4.webp": "https://www.figma.com/proto/vY1vrLrnoffku0dCNY9xVE/Vaulta?node-id=1-3&t=dilqu8hnkk0CcRG1-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
 };
 
 // AUTO CREATE PROJECTS
