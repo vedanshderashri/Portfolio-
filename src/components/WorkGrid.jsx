@@ -56,11 +56,11 @@ export default function WorkPage() {
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.7 }}
+              transition={{ duration: 0.3 }}
               style={{
                 transform: isDimmed
                   ? "scaleY(0.92)"
-                  : "scaleY(1)",
+                  : "scaleY(1.1)",
 
                 filter: isDimmed
                   ? "blur(0px)"
