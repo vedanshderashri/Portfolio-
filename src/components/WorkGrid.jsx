@@ -60,7 +60,7 @@ export default function WorkPage() {
                   : "scaleY(1)",
 
                 filter: isDimmed
-                  ? "blur(2px)"
+                  ? "blur(0px)"
                   : "blur(0px)",
 
                 transition: "0.35s ease",
